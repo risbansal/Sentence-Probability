@@ -1,31 +1,17 @@
 # Sentence-Probability
 Predicting the probability of a sentence occuring in a corpus using Ngram language model
 
+Installations Required:
+1. Python 3.7
+2. “re” library
+3. “argparse” library
 
-Language
-Python 2.7
+Steps:
 
-Required Libraries:
-io
-sys
-re
-pandas
-time
-numpy
-sklearn
-argparse
 
-Command Synatx:
-python classify.py -o option_no -train_dir ‘train_set_directory_name’ -test_dir ‘test_ set_directory_name’
+1. Open terminal in the folder containing the project
+3. Type command to run the program “ngram.py”
+	eg: python3 ngram.py -N 2 -b 1
 
-Command example:
-python classify.py -o 3 -train_dir ‘hw2_train’ -test_dir ‘hw2_test’ 
-
-Please select options according to following list:
-
-1. Multinomial Naive Bayes on the Bag of words model
-2. Discrete Naive Bayes on the Bernoulli model
-3. Logistic Regression on Bag of words
-4.  Logistic Regression on Bernoulli models
-5. SGDClassifier on Bag of words
-6. SGDClassifier on Bernoulli models
+N- 2 for Bigram and 3 for Trigram
+b- 1 for + 1 Smoothing and 0 for no smoothing
