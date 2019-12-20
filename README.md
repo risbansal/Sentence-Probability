@@ -14,4 +14,5 @@ Steps:
 	eg: python3 ngram.py -N 2 -b 1
 
 N- 2 for Bigram and 3 for Trigram
+
 b- 1 for + 1 Smoothing and 0 for no smoothing
